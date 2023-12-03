@@ -4,7 +4,7 @@
  * Returning lstat info.
  * Requires the `--allow-read` and `--allow-write` flag.
  */
- export function pathInfoSync(filePath/* : string */)/* : pathInfo */ {
+ export function pathInfoSync(filePath=new URL()||'string'/* : string */)/* : pathInfo */ {
     let stat
     try {
       // if file exists

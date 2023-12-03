@@ -1,6 +1,6 @@
-import { baseUrl } from '../../../meta.js';
+import { baseUrl, ROOT } from '../../../meta.js';
 import { pathInfoSync } from './pathInfo.js';
-import { ROOT } from '../../args.js';
+
 
 export function pathType(req) {
 
